@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and archived software release."
+title: "Mainline code for C-RSM safety-margin screening"
+version: "1.0.0"
+date-released: "2026-07-05"
+authors:
+  - family-names: "AUTHOR_PLACEHOLDER"
+    given-names: "AUTHOR_PLACEHOLDER"
+repository-code: "GITHUB_URL_PLACEHOLDER"
+license: "TO_BE_CONFIRMED"

@@ -1,0 +1,41 @@
+name: pytorch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - pyarrow
+  - xarray
+  - netcdf4
+  - scipy
+  - geopandas
+  - pyogrio
+  - shapely
+  - rasterio
+  - tifffile
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - pillow
+  - openpyxl
+  - python-docx
+  - lxml
+  - tqdm
+  - einops
+  - joblib
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.7.1+cu128
+      - torchvision
+      - torchaudio
+      - docxcompose
+      - python-pptx
+      - reportlab
+      - adjustText
+      - pdfplumber
+      - pypdf

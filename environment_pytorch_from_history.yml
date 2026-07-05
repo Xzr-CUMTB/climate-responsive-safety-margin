@@ -1,0 +1,16 @@
+name: pytorch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - seaborn
+  - xgboost
+  - lightgbm[version='>=4.0']
+  - prophet
+  - shap
+prefix: D:\Anaconda\envs\pytorch
